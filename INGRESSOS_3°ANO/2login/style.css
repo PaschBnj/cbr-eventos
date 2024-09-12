@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(109,173,215);
+    background: linear-gradient(90100000deg, rgba(109,173,215,1) 0%, rgba(144,90,173,1) 100%);
+    background-size: contain; /* ou 'cover', dependendo do efeito desejado */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw; /* Define a largura do site */
+    height: 100vh; /* Define a altura do site */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.form-container {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ajuste este valor conforme necessário */
+    max-width: 300px; /* Limite máximo de largura */
+    height: 455px; /* Permite que a altura se ajuste ao conteúdo */
+    text-align: center;
+    position: absolute; /* ou fixed */
+    top: 60%; /* Ajuste conforme necessário */
+    left: 24.9%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%) scale(0.8); /* Escala inicial */
+    transition: transform 0.3s ease; /* Transição suave */
+    box-sizing: border-box; /* Garante que padding e borda não aumentem o tamanho do contêiner */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: -1px;
+    color: #555;
+    font-size: 14px;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: -11px;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #b20202;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #b20202;
+}
+
+.login-link {
+    margin-top: 15px;
+    color: #555;
+}
+
+.login-link a {
+    color: #b20202;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+    position: relative;
+    color: #8e1320;
+}

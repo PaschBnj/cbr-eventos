@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Imagem do WhatsApp de 2024-08-29 à(s) 20.36.39_042f8f84.jpg");;
+    background-size: contain; /* ou 'cover', dependendo do efeito desejado */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw; /* Define a largura do site */
+    height: 100vh; /* Define a altura do site */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button { 
+    
+    border: none; /* Remove a borda */
+padding: 1px 10px; /* Mantém o tamanho do botão */
+height: 22px; /* Mantém a altura do botão */
+width: 100px; /* Mantém a largura do botão */
+text-align: center;
+background-color: #b20202; /* Cor de fundo */
+color: white; /* Cor do texto */
+font-size: 8px; /* Diminui o tamanho do texto */
+cursor: pointer;
+border-radius: 20px;
+margin-top: -309px;
+margin-left: 380px;
+
+    
+
+}
+
+button2 {
+    border: none; /* Remove a borda */
+    padding: 1px 10px; /* Mantém o tamanho do botão */
+    height: 22px; /* Mantém a altura do botão */
+    width: 100px; /* Mantém a largura do botão */
+    text-align: center;
+    background-color: #b20202; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 8px; /* Diminui o tamanho do texto */
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: -309px;
+    margin-left: 380px;
+}
