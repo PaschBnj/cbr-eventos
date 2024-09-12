@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "INGRESSOS_3°ANO/1cadastro",
+      "src": "INGRESSOS_3°ANO/1cadastro/index.html",
       "use": "@vercel/static"
     }
   ],
