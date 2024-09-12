@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "INGRESSOS_3°ANO/1cadastro/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "INGRESSOS_3°ANO/1cadastro/$1"
+    }
+  ]
+}
