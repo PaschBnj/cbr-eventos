@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "pages/index.html",
+      "src": "INGRESSOS_3°ANO/pages/index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/pages/index.html"
+      "dest": "INGRESSOS_3°ANO/pages/index.html"
     }
   ]
 }
