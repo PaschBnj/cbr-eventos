@@ -2,14 +2,38 @@
   "version": 2,
   "builds": [
     {
-      "src": "INGRESSOS_3°ANO/pages/index.html",
+      "src": "pages/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "INGRESSOS_3°ANO/pages/index.html"
+      "src": "/",
+      "dest": "/pages/index.html"
+    },
+    {
+      "src": "/cadastro",
+      "dest": "/pages/cadastro.html"
+    },
+    {
+      "src": "/login",
+      "dest": "/pages/login.html"
+    },
+    {
+      "src": "/lista_eventos",
+      "dest": "/pages/lista_eventos.html"
     }
   ]
 }
