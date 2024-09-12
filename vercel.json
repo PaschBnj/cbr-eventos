@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "INGRESSOS_3°ANO/1cadastro/$1"
+      "dest": "INGRESSOS_3°ANO/pages/$1"
     }
   ]
 }
